@@ -41,8 +41,7 @@ Folder
 # 4. Step-by-step Instructions <a name="stepbystep"></a>
 The most accurate classifiers are the __decision tree, MiniRocket and chi square map ResNet__ classifiers which require data in the form of a relevant feature dataframe, peak flux light curves and chi square maps. Examples of these are shown below:
 
-__Include pictures of dataframes for candidates, image slices and light curves
-Show images overlaying eachother like image cube then → to a chi square map.__
+![Obtaining the chi square maps](https://github.com/user-attachments/assets/5d80cc88-fd41-463b-a717-1b28fd067387)
 
 An overview to how to use the pipeline on new data would be as follows:
 ## 4.1. Obtaining The Trained Classifiers: <a name="obtain_classifiers"></a>
