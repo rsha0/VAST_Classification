@@ -40,8 +40,30 @@ Folder
 
 # 4. Step-by-step Instructions <a name="stepbystep"></a>
 The most accurate classifiers are the __decision tree, MiniRocket and chi square map ResNet__ classifiers which require data in the form of a relevant feature dataframe, peak flux light curves and chi square maps. Examples of these are shown below:
+<!-- New line here... -->
+
+---
+
+<!-- ... and new line here. -->
+
+![Example Light curve](https://github.com/user-attachments/assets/4de89d72-33cf-4a4f-86b7-45628c137c6f)
+
+__Figure 4.1.__ An example light curve that may be fed into the MiniRocket classifier. 
+<!-- New line here... -->
+
+---
+
+<!-- ... and new line here. -->
 
 ![Obtaining the chi square maps](https://github.com/user-attachments/assets/5d80cc88-fd41-463b-a717-1b28fd067387)
+
+__Figure 4.2.__ The chi square maps are calculated using the image cubes which contain images of a source taken at repeated intervals during an observation<sup>2</sup>. These maps are used to train a convolutional neural network with ResNet50 architecture.
+
+<!-- New line here... -->
+
+---
+
+<!-- ... and new line here. -->
 
 An overview to how to use the pipeline on new data would be as follows:
 ## 4.1. Obtaining The Trained Classifiers: <a name="obtain_classifiers"></a>
@@ -58,6 +80,21 @@ An overview to how to use the pipeline on new data would be as follows:
 9. Open the __*"Transient_Classifier_Pipeline.ipynb"*__ script and enter the name of the feature data csv for the new data into the variable: __*"data_file_name"*__.
 10. Enter the name of the folder where the light curves are stored into the variable __*lc_folder_name*__ and enter the name of the folder where the fits cubes are stored into the variable __*"fits_folder_name"*__.
 11. Run the __*"Transient_Classifier_Pipeline.ipynb"*__ script and the unique candidates from the decision tree, MiniRocket and chi square map ResNet classifiers will be saved in __*"Transient_candidates/candidates.csv"*__
+
+The final saved dataframe of candidates should look like the following:
+<!-- New line here... -->
+
+---
+
+<!-- ... and new line here. -->
+![Candidate dataframe](https://github.com/user-attachments/assets/df92b4e9-8a52-40ce-a421-3342b22789d4)
+
+__Figure 4.3.__ The final dataframe containing the SBID, beam ID and name of possible transients.
+<!-- New line here... -->
+
+---
+
+<!-- ... and new line here. -->
 
 # 5. Extra Information <a name="extra"></a>
 
