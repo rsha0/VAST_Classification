@@ -29,13 +29,54 @@ To do this in the Anaconda prompt, use the code:
 Before starting, the user must ensure that they have the following pre-existing folder structure. The guide to the diagram is as follows:
 
 ```
-Folder
-- Subfolder
+1. Folder
+    - Subfolder
 ```
+The folder structure required will be:
+```
+1. chi_square_map
+    - Train
+    - Validation
+    - Test
 
-```
-Folder
-- Subfolder
+2. peak_map
+    - Train
+    - Validation
+    - Test
+
+3. chi_square_std_peak_maps
+    - Train
+    - Validation
+    - Test
+
+4. CNN_Data
+    - Train
+    - Validation
+    - Test
+
+5. Models
+    - CSM_Resnet
+    - CSM_Resnet_hyperparams
+    - Rocket_Model
+    - Tree_clf
+
+6. Resnet_tuned_params
+    - Resnet_tune_hypermodel
+
+7. Resnet_tuned_params_CSM_PM
+    - Resnet_tune_hypermodel
+
+8. Plots
+
+9. Transient_candidates
+
+10. VAST_10s_CSV
+
+11. VAST 10s lightcurve
+
+12. VAST 10s fitscube
+
+13. EMU_data
 ```
 
 # 4. Step-by-step Instructions <a name="stepbystep"></a>
@@ -120,5 +161,5 @@ please email: yuanmingwang@swin.edu.au
 
 # 6. References: <a name="references"></a>
 
-1. MURPHY, T. et al. (2013). VAST: An ASKAP Survey for Variables and Slow Transients. Publications of the Astronomical Society of Australia, 30.
+1. Murphy, T. et al. (2013). VAST: An ASKAP Survey for Variables and Slow Transients. Publications of the Astronomical Society of Australia, 30.
 2. Wang, Y. et al. (2023). Radio variable and transient sources on minute time-scales in the ASKAP pilot surveys. Monthly Notices of the Royal Astronomical Society, 523(4), 5661-5680.
