@@ -161,5 +161,5 @@ please email: yuanmingwang@swin.edu.au
 
 # 6. References: <a name="references"></a>
 
-1. Murphy, T. et al. (2013). VAST: An ASKAP Survey for Variables and Slow Transients. Publications of the Astronomical Society of Australia, 30.
-2. Wang, Y. et al. (2023). Radio variable and transient sources on minute time-scales in the ASKAP pilot surveys. Monthly Notices of the Royal Astronomical Society, 523(4), 5661-5680.
+1. Murphy, T. et al. (2013). VAST: An ASKAP Survey for Variables and Slow Transients. *Publications of the Astronomical Society of Australia*, 30.
+2. Wang, Y. et al. (2023). Radio variable and transient sources on minute time-scales in the ASKAP pilot surveys. *Monthly Notices of the Royal Astronomical Society*, 523(4), 5661-5680.
